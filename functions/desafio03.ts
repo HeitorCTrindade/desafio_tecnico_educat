@@ -6,6 +6,8 @@ export interface Product {
 }
 
 export const findMostExpensiveProduct = (products: Product[]): Product => {
-	return products[0];
+	const mostExpensiveProduct = products.reduce((accProduct, product) => {
+		return product.preco > accProduct.preco ? product : accProduct;
+	});
+	return mostExpensiveProduct;
 };
-

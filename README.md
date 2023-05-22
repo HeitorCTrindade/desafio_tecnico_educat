@@ -22,7 +22,12 @@ O desafio proposto consistiu em criar 05 funções para resolver os seguintes pr
 - Escreva uma função que receba uma lista de strings como parâmetro e retorne um dicionário em que as chaves são as palavras únicas da lista e os valores são a contagem de quantas vezes cada palavra aparece. Por exemplo, se a lista for ["apple", "banana", "apple", "orange"], a função deve retornar {"apple": 2, "banana": 1, "orange": 1}.
 - Escreva uma função que receba um número inteiro como parâmetro e verifique se ele é um número primo. A função deve retornar True se o número for primo e False caso contrário. E deve identificar os números primos entre 0 e 2000.
 
-Para resolver o desafio, criei o ambiente necessário em TypeScript para presente projeto (Node.js, Eslint e Jest), implementei as funções para resolver os problemas assinalados, assim como funções auxiliares para deixar a código mais coeso e claro, e implementei testes com Jest para avaliar as funções criadas. Foi utilizada a metodologia TDD sempre que viável. 
+Para resolver o desafio: 
+- Criei o ambiente necessário em TypeScript para presente projeto (Node.js, Eslint e Jest).
+- Criei um arquivo para cada função (denominados como desafio0'X'.ts). Implementei nos arquivos as funções necessárias para resolver os problemas assinalados, assim como funções auxiliares para deixar a código mais coeso e claro. 
+- Implementei testes com Jest para avaliar as funções criadas.
+
+Foi utilizada a metodologia *TDD* sempre que viável. 
 
 ## Tecnologias utilizadas
 

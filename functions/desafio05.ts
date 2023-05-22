@@ -6,7 +6,6 @@ const verifyPrimes = (num: number): object => {
 
 const isPrime = (num: number): boolean => {
 	if (num < 2) return false;
-
 	for (let i = 2; i <= Math.sqrt(num); i++) {
 		if (num % i === 0) {
 			return false;
@@ -18,13 +17,11 @@ const isPrime = (num: number): boolean => {
 
 const findPrimesLessThan2000 = (): number[] => {
 	const primes: number[] = [];
-
 	for (let i = 2; i < 2000; i++) {
 		if (isPrime(i)) {
 			primes.push(i);
 		}
 	}
-
 	return primes;
 };
 

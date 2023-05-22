@@ -9,7 +9,6 @@ const formatStr = (str: string): string => {
 			newStr += str[i].toLocaleUpperCase();
 		}
 	}
-
 	return newStr;
 };
 

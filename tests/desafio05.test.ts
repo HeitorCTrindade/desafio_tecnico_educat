@@ -1,12 +1,12 @@
-import isPrime from '../functions/desafio05';
+import verifyPrimes from '../functions/desafio05';
 
 describe('4 - Testa função isPrime', () => {
 	it(`Será validado se função verifica corretamente se um numero é primo e se a função retorna os numeros primos entre 1 e 2000`, async () => {
-		expect(isPrime(2)).toBe({ isPrime: true, primes: mockPrimes });
-		expect(isPrime(13)).toBe({ isPrime: true, primes: mockPrimes });
-		expect(isPrime(17)).toBe({ isPrime: true, primes: mockPrimes });
-		expect(isPrime(4)).toBe({ isPrime: false, primes: mockPrimes });
-		expect(isPrime(9)).toBe({ isPrime: false, primes: mockPrimes });
+		expect(verifyPrimes(2)).toBe({ isPrime: true, primes: mockPrimes });
+		expect(verifyPrimes(13)).toBe({ isPrime: true, primes: mockPrimes });
+		expect(verifyPrimes(17)).toBe({ isPrime: true, primes: mockPrimes });
+		expect(verifyPrimes(4)).toBe({ isPrime: false, primes: mockPrimes });
+		expect(verifyPrimes(9)).toBe({ isPrime: false, primes: mockPrimes });
 	});
 });
 

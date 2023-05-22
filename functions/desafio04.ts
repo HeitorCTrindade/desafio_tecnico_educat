@@ -8,7 +8,7 @@ const countWords = (words: string[]): object => {
 		}
 		wordsObj[word] += 1;
 	});
-	return {};
+	return wordsObj;
 };
 
 export default countWords;

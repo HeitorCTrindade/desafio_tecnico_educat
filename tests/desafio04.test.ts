@@ -2,7 +2,7 @@
 
 import countWords from '../functions/desafio04';
 
-describe('3 - Testa função countWords', () => {
+describe('4 - Testa função countWords', () => {
 	it(`Será validado se função retorna corretamente a contagem de palavras da lista`, async () => {
 		expect(countWords(['apple', 'banana', 'apple', 'orange'])).toEqual({
 			apple: 2,

@@ -6,7 +6,7 @@ const formatStr = (str: string): string => {
 		if (/^[aeiou]$/i.test(str[i])) {
 			newStr += '-';
 		} else {
-			newStr += str[i].toLocaleUpperCase;
+			newStr += str[i].toLocaleUpperCase();
 		}
 	}
 
